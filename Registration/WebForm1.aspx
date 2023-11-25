@@ -8,6 +8,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <br />
+        Fill your Details<br />
+        <br />
+        <br />
         Full Name<div>
             <asp:TextBox ID="FullName" runat="server" Width="193px"></asp:TextBox>
         </div>
