@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <br />
-        Fill your Details<br />
+        Fill the Details.<br />
         <br />
         <br />
         Full Name<div>
