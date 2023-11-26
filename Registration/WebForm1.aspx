@@ -18,7 +18,7 @@
        }
    </script>
  
-    <title>Modern Registration Form</title>
+    <title>Registration Form</title>
     <style>
       
          #toast-container {
