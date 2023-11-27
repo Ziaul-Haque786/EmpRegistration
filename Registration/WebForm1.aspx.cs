@@ -26,7 +26,8 @@ namespace Registration
         {
             // Replace "your_connection_string_here" with your actual database connection string
             string connectionString = ConfigurationManager.ConnectionStrings["SqlConnectionString"].ConnectionString;
-            //string connectionString = "Server=tcp:empreg.database.windows.net,1433;Initial Catalog=Employee_Registration;Persist Security Info=False;User ID=sqluser;Password=Azure@12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            
+            //string connectionString = "Server=tcp:empreg.database.windows.net,1433;Initial Catalog=Employee_Registration;Persist Security Info=False;User ID=sqluser;Password={Password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             try
             {
                     using (SqlConnection regcon = new SqlConnection(connectionString))
