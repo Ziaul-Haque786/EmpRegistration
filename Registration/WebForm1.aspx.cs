@@ -51,7 +51,7 @@ namespace Registration
                         insert.CommandType = CommandType.StoredProcedure;
 
                         // Assuming you have variables for the values you want to insert
-                        insert.Parameters.AddWithValue("@EmployeeID", Eid.Text)
+                        insert.Parameters.AddWithValue("@EmployeeID", Eid.Text);
                         insert.Parameters.AddWithValue("@FullName", FullName.Text);
                         insert.Parameters.AddWithValue("@Department", Dept.Text);
                         insert.Parameters.AddWithValue("@Email", mail.Text);
