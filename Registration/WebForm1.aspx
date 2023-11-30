@@ -119,7 +119,7 @@
 <body>
     <div id="toast-container"></div>
     <form id="form1" runat="server">
-        <h2>Employee Registration Form! </h2>
+        <h2>Employee Registration Form.</h2>
         <div>
             <label for="FullName">Full Name</label>
             <asp:TextBox class="text-box" ID="FullName" runat="server"></asp:TextBox>
